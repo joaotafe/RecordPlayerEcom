@@ -24,8 +24,8 @@
     </div>
 
     <!-- first child Header -->
-    <nav class="navbar navbar-expand-lg" id="background">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg" id="nav">
+      <div class="container-fluid" id="background">
         <img class="logo" src="./images/playerLogo.png" alt="Record Player Icon">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                Cart
+              </a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -62,10 +65,31 @@
         </div>
       </div>
     </nav>
+    <!-- Off Canvas Cart -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <!-- third child -->
-    <div class="welcome">
-      <h3 class="text-center">The Record Player</h3>
+    <div class="container" id="secondNav">
       <p id="p1" class="text-center">"Welcome! Here is your ultimate destination for a curated collection of vinyl records that will transport you through the timeless melodies of music history."</p>
     </div>
 
