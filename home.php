@@ -83,7 +83,7 @@
     <!-- third child -->
     <div class="welcome">
       <h3 class="text-center">The Record Player</h3>
-      <p class="text-center">"Welcome! Here is your ultimate destination for a curated collection of vinyl records that will transport you through the timeless melodies of music history."</p>
+      <p id="p1" class="text-center">"Welcome! Here is your ultimate destination for a curated collection of vinyl records that will transport you through the timeless melodies of music history."</p>
     </div>
 
     <!-- fourth child -->
