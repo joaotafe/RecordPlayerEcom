@@ -1,0 +1,24 @@
+.logo {
+    width: 10%;
+    height: 10%;
+}
+.cart {
+    width: 10%;
+    height: 10%;    
+}
+img{ 
+    width: 435px;
+    height: 435px;
+}
+.navbar-brand {
+    box-sizing: border-box;
+}
+.welcome {
+    background-color: #e4e4a1;
+}
+#background {
+    background-color: #bb002f;
+}
+.row {
+    background-color: #fafad7;
+}
