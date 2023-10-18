@@ -10,53 +10,49 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- CSS file -->
   <link rel="stylesheet" href="./style/style.css">
-  <!-- google font link for headers-->
+  <!-- google font link for headers and body-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
-  <!-- google font link for body-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Barlow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&family=Play:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- navigation bar -->
+  <!-- Container -->
   <div class="container-fluid p-0">
+    <div class="container-fluid" id="header">
+      <h6> The Record Player </h6>
+    </div>
 
-
-    <!-- first child -->
-    <nav class="navbar navbar-expand-lg " id="background">
+    <!-- first child Header -->
+    <nav class="navbar navbar-expand-lg" id="background">
       <div class="container-fluid">
-        <h6> The Record Player </h6>
-        <a class="navbar-brand" href="#"><img src="./images/playerLogo.png" alt="A record player cartoon" class="logo"></a>
-        <!-- reactive component to the webpage. Button with dropdown menu will appear when webpage collapses -->
+        <img class="logo" src="./images/playerLogo.png" alt="Record Player Icon">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- The following code id="navbarSupportedContent" needs to be there so that button gives output -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Login
+                Dropdown
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Sign In</a></li>
-                <li><a class="dropdown-item" href="#">Register</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true"><img src="./images/cart.png" alt="Shopping cart cartoon" class="cart"></a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -65,19 +61,6 @@
           </form>
         </div>
       </div>
-    </nav>
-
-
-    <!-- second child  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Welcome Guest!</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-      </ul>
     </nav>
 
     <!-- third child -->
