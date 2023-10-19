@@ -2,39 +2,35 @@
     text-align: center;
     background-color: #bb002f;
 }
-.container-fluid #header{
-    padding: 0%;
+.container-fluid a:hover{
+    background-color: #ffffffcf;
+    overflow: hidden;
+}
+.container-fluid a:active{
+    background-color: #4d0013;
+    color: #ffffffcf ;
+}
+#cart {
+    text-decoration: none;
+    color: black;    
 }
 #background {
     background-color: #cd0033;
     padding: 0%;
-}
-h6 {
-    font-family: 'Play', sans-serif;
-    font-size: 100px;
-    margin: 0%;
 }
 #nav {
     padding: 0%;
     border: 4px solid black;
     padding: 5px;
 }
-.logo {
-    width: 57px;
-    height: 50px;
-}
-.cart {
-    width: 10%;
-    height: 10%;    
+p{
+    font-family: 'Play', sans-serif;
 }
 img{ 
     object-fit: scale-down;
 }
 .navbar-brand {
     box-sizing: border-box;
-}
-.welcome {
-    background-color: #e4e4a1;
 }
 #p1 {
     margin: 0%;
